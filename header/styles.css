@@ -1,0 +1,141 @@
+html, body
+{
+    height: 100%;
+    margin: 0px !important;
+    background: #2B2B2B;
+}
+
+.max-content {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 88px;
+    background: #2B2B2B;
+    opacity: 0.85;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.option-text {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-right: 28px;
+}
+
+.active {
+    color: #EFA220;
+}
+
+.ellipse {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #EFA220;
+    margin-right: 8px; 
+}
+
+.logo {
+    margin-left: 36px;
+    height: 60px;
+    width: 112px;
+    border-radius: 0px;
+    margin-right: 100px;
+}
+
+.change-avatar-btn {
+    height: 54px;
+    width: 130px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid white;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 38px;
+}
+
+.header-left-side {
+    display: flex;
+    flex-direction: row;
+}
+
+.center-items {
+    display: flex;
+    align-items: center;
+}
+
+/* screen-styles */
+.page-content {
+    height: calc(100vh - 88px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    background: linear-gradient(0deg, #FBB12B 0%, #F58710 57%, #F26D00 100%);
+}
+
+.default-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(43, 43, 43, 0.85);
+}
+
+.btn-icon {
+    margin-right: 2px;
+}
+
+.cloud-text {
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    padding: 12px 15px;
+}
+
+.voice-chat {
+    width: 82px;
+    height: 40px;
+    background: #1E1E1E;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.voice-chat-btn {
+    background: #1E1E1E;
+    border-radius: 5px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

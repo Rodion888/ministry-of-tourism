@@ -1,0 +1,103 @@
+html, body
+{
+    height: 100%;
+    margin: 0px !important;
+    padding: 20px;
+}
+
+.modal {
+    width: 1000px;
+    height: 600px;
+    background: rgba(43, 43, 43, 0.95);
+    border-radius: 5px;
+}
+
+.title {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    color: #FFFFFF;
+    margin-bottom: 34px;
+}
+
+.modal-content {
+    margin-left: 90px;
+    margin-right: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.close-icon-block {
+    height: 36px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.input-field {
+    box-sizing: border-box;
+    margin-bottom: 28px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 31px;
+	height: 58px;
+    width: 100%;
+	border-radius: 3px;
+	border: 1px solid;
+}
+
+input::placeholder {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 31px;
+    color: #696969;
+}
+
+.input-field:focus {
+	outline: none;
+}
+
+.textaria {
+    padding-top: 20px;
+    height: 180px;
+    resize: none;
+}
+
+textarea::placeholder {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 31px;
+    color: #696969;
+}
+
+.btn-block {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.primary-btn {
+    cursor: pointer;
+    width: 119px;
+    height: 40px;
+    background: #EFA220;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2A2A2A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
